@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Coriander Leaves",
+    "category": "Herb",
+    "image": "coriander.jpg",
+    "nutrition": {
+      "calories": 23,
+      "protein": 2,
+      "fat": 0.5,
+      "carbohydrates": 3.7,
+      "fiber": 2.1
+    }
+  },
+  {
+    "name": "Parmesan Cheese",
+    "category": "Dairy",
+    "image": "parmesan.jpg",
+    "nutrition": {
+      "calories": 431,
+      "protein": 38,
+      "fat": 29,
+      "carbohydrates": 4.1,
+      "fiber": 0
+    }
+  },
+  {
+    "name": "Soy Sauce",
+    "category": "Condiment",
+    "image": "soy_sauce.jpg",
+    "nutrition": {
+      "calories": 10,
+      "protein": 1,
+      "fat": 0,
+      "carbohydrates": 1,
+      "fiber": 0
+    }
+  },
+  {
+    "name": "Avocado",
+    "category": "Fruit",
+    "image": "avocado.jpg",
+    "nutrition": {
+      "calories": 160,
+      "protein": 2,
+      "fat": 15,
+      "carbohydrates": 9,
+      "fiber": 7
+    }
+  },
+  {
+    "name": "Tahini",
+    "category": "Condiment",
+    "image": "tahini.jpg",
+    "nutrition": {
+      "calories": 595,
+      "protein": 17,
+      "fat": 53,
+      "carbohydrates": 21,
+      "fiber": 9
+    }
+  }
+]

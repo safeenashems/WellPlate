@@ -1,0 +1,19 @@
+ Why Not Just Store Diseases Inside User Schema?
+If you only store diseases inside the User schema, then:
+
+🚨 Each user entry must store the same disease data repeatedly.
+🚨 If a disease's avoid/include ingredients change, you'd need to update every user instead of just updating one disease document.
+🚨 Querying meals, recipes, and recommendations becomes harder because you'd have to extract disease-related data from each user instead of just looking at a Disease collection.
+2️⃣ Why a Separate Disease Schema is Needed
+✔️ Avoid Data Duplication:
+
+If 1,000 users have diabetes, they all refer to one "Diabetes" document instead of storing the same details 1,000 times.
+✔️ Easy Updates:
+
+Changing a disease's avoid/include ingredients in one place applies to all users.
+✔️ Faster Queries:
+
+MongoDB can efficiently fetch disease-related meal recommendations without scanning all users.
+✔️ Better Relationship Mapping:
+
+Users reference diseases (diseaseId), and diseases reference avoid/include ingredients (ingredientId), keeping data clean.

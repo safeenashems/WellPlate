@@ -1,0 +1,28 @@
+{
+  "title": "Chicken Tacos",
+  "category": "Dinner",
+  "cuisine": "Mexican",
+  "difficulty": "Easy",
+  "cookingTime": 25,
+  "servings": 4,
+  "ingredients": ["Chicken", "Tortilla", "Onion", "Tomato", "Cheese", "Lettuce", "Sour Cream", "Avocado"],
+  "instructions": "Step 1: Cook the chicken with spices. Step 2: Warm tortillas. Step 3: Assemble tacos with toppings.",
+  "steps": [
+    {
+      "stepNumber": 1,
+      "description": "Marinate and cook the chicken with spices.",
+      "image": "step1.jpg"
+    },
+    {
+      "stepNumber": 2,
+      "description": "Warm the tortillas on a skillet.",
+      "image": "step2.jpg"
+    },
+    {
+      "stepNumber": 3,
+      "description": "Fill the tortillas with chicken and toppings.",
+      "image": "step3.jpg"
+    }
+  ],
+  "mainImage": "chicken_tacos.jpg",
+  "video": "https://youtube.com/chicken-tacos"
