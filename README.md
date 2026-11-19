@@ -1,4 +1,13 @@
-# 🍽️ WellPlate – Smart Recipe Generator
+<p align="center">
+  <img src="frontend/public/assets/wellPlate_logo.png" width="200" alt="WellPlate Logo">
+</p>
+
+<h1 align="center">WellPlate – Smart Recipe Generator</h1>
+
+<p align="center">
+  <strong>Your Smart Recipe Generator for Healthier Meals</strong>
+</p
+  ># 🍽️ WellPlate – Smart Recipe Generator
 
 A full-stack MERN web application for discovering, searching, filtering and managing recipes. WellPlate allows users to explore recipes based on cuisine and dietary preferences, save their favourite recipes, and manage their accounts. It also provides an administrative dashboard for managing recipes and users.
 
