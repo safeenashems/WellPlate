@@ -1,30 +1,53 @@
-﻿# WellPlate
-
-*Project Description*
-
-WellPlate is a full-stack MERN web application designed for browsing, filtering, and managing recipes. It allows users to explore recipes based on cuisine and diet types, while providing an admin dashboard for managing recipes and users with role-based access. The system includes secure authentication and dynamic data handling using REST APIs.
-
-Tools Used
-
-HTML5, CSS3, JavaScript, React.js, Vite, Redux Toolkit, React Hooks, Node.js, Express.js, MongoDB, Mongoose, JWT Authentication, bcryptjs, Axios, Material UI (MUI), React Router DOM, React Toastify, Recharts, React Slick, Multer, CORS, dotenv, Express Validator, Postman.
-
-Features
-User registration and login with validation
-Password encryption using bcryptjs
-JWT-based authentication and authorization
-Browse recipes by cuisine type
-Filter recipes based on diet type
-Search recipes functionality
-Favorites system to save and remove recipes
-Admin dashboard with charts and analytics (Recharts)
-View total users and total recipes
-Add, edit, delete recipes (CRUD operations)
-Manage users and promote users to admin
-
-
 # 🍽️ WellPlate – Smart Recipe Generator
 
-A full-stack MERN web application for discovering, searching, filtering and managing recipes. WellPlate allows users to explore recipes based on cuisine and dietary preferences, save favourites, and access personalised functionality. It also includes an administrative dashboard for managing recipes and users.
+A full-stack MERN web application for discovering, searching, filtering and managing recipes. WellPlate allows users to explore recipes based on cuisine and dietary preferences, save their favourite recipes, and manage their accounts. It also provides an administrative dashboard for managing recipes and users.
+
+## 📸 Application Screenshots
+
+### User Interface
+
+**Home Page**
+
+![Home Page](<screenshots/home page.png>)
+
+**Cuisine Listing**
+
+![Cuisine Listing](<screenshots/listing cuisines.png>)
+
+**Recipes**
+
+![Recipes](<screenshots/recipes.png>)
+
+**Recipe Details**
+
+![Recipe Details](<screenshots/recipe details.png>)
+
+**Logged-in User – Recipe Listing**
+
+![Logged-in Recipe Listing](<screenshots/recipes listing for a logged in user with favourites.png>)
+
+**Favourite Recipes**
+
+![Favourite Recipes](<screenshots/favourite recipes listing for a logged in user.png>)
+
+**Login**
+
+![Login Form](<screenshots/login form.png>)
+
+### Admin Dashboard
+
+**Dashboard Overview**
+
+![Admin Dashboard](<screenshots/Admin dashboard overview.png>)
+
+**Recipe Management – CRUD Operations**
+
+![Recipe Management](<screenshots/admin dashboard-listing recipes for crud.png>)
+
+**User Management**
+
+![User Management](<screenshots/listing users in admin dashboard.png>)
+
 
 ## ✨ Features
 
@@ -41,18 +64,16 @@ A full-stack MERN web application for discovering, searching, filtering and mana
 - Dedicated admin dashboard.
 - Visual analytics using Recharts.
 - View total users and recipes.
-- Add, edit and delete recipes.
+- Add, edit and delete recipes (CRUD operations).
 - Manage registered users.
 - Promote users to administrator.
-- Upload recipe images.
+- Upload recipe images using Multer.
 - Role-based access control.
 
 ## 🛠️ Technology Stack
 
 ### Frontend
-- HTML5
-- CSS3
-- JavaScript
+- HTML5, CSS3, JavaScript
 - React.js
 - Vite
 - Redux Toolkit
@@ -83,27 +104,37 @@ A full-stack MERN web application for discovering, searching, filtering and mana
 
 ## ⚙️ Installation and Setup
 
-Clone the repository:
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/safeenashems/WellPlate.git
 ```
 
-Install dependencies in the frontend and backend directories using npm.
-
-### Start Backend
+### 2. Install backend dependencies
 
 ```bash
-cd backend
+cd WellPlate/Backend
+npm install
+```
+
+### 3. Start the backend
+
+```bash
 node server.js
 ```
 
-### Start Frontend
+### 4. Install frontend dependencies
 
 Open a second terminal:
 
 ```bash
-cd frontend
+cd WellPlate/frontend
+npm install
+```
+
+### 5. Start the frontend
+
+```bash
 npm run dev
 ```
 
@@ -111,25 +142,22 @@ Open the local URL displayed by Vite in your browser.
 
 ## 🔍 Key Technical Highlights
 
-- Full-stack development using the MERN stack.
-- Frontend and backend communication through REST APIs.
-- User authentication and role-based authorization.
-- Password hashing and protected functionality.
-- MongoDB database integration.
-- CRUD operations for recipe management.
-- Image upload handling.
+- Full-stack application developed using the MERN stack.
+- REST API integration between frontend and backend.
+- JWT-based authentication and role-based authorization.
+- Password hashing using bcryptjs.
+- MongoDB database integration with Mongoose.
+- CRUD operations for recipe and user management.
+- Image upload handling using Multer.
 - Admin dashboard with data visualisation.
 
 ## 👩‍💻 Project Information
 
-**Project:** WellPlate – Smart Recipe Generator  
-**Project Type:** MERN Stack Course Final Project  
-**Developer:** Safeena Shemsheer
+- **Project:** WellPlate – Smart Recipe Generator
+- **Project Type:** MERN Stack Course Final Project
+- **Developer:** Safeena Shemsheer
 
+## 🔗 Connect
 [GitHub Profile](https://github.com/safeenashems)
-Image upload for recipes (Multer)
-Responsive UI using Material UI
-Fast frontend development using Vite
-Toast notifications for actions (React Toastify)
-Dynamic routing using React Router DOM
-Role-based access control (User/Admin)
+
+[GitHub Profile](https://github.com/safeenashems)﻿
